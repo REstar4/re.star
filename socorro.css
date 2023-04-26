@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    padding: 16px 96px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+}
+
+nav.large{
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+nav.small{
+    display: none;
+}
+
+h1.logo {
+    color: #353535;
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+a.link-h{
+    font-size: 16px;
+    margin-left: 8%;
+    color: #353535;
+
+    text-decoration: none;
+}
+
+a.link-h:hover{
+    background: linear-gradient(90deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+a.link-ec {
+    text-decoration: underline;
+}
+
+body{
+    height: 100vh;
+    background-color:  #fbfbfb;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.gradient {
+    background: linear-gradient(90deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body {
+    height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10%; 
+}
+
+main {
+    position: relative;
+    top: 30px;
+
+    height: 95%;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+input{
+    border: 2px solid #353535;
+    border-radius: 15px;
+    padding: 8px 25px 8px 25px;
+    margin-bottom: 16px;
+    background-color: #fbfbfb;
+   
+}
+
+::-webkit-input-placeholder{
+    color:#353535;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:-ms-input-placeholder{
+    color:#353535;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder{
+    color:#353535;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+
+    width: 150%;
+    
+    margin-top: 2%;
+}
+
+form.check {
+    display: flex;
+    justify-content: center;
+}
+
+#divum {
+    display: flex;
+    flex-direction: column;
+
+    width: 49%;
+}
+
+#divdois {
+    display: flex;
+    flex-direction: column;
+
+    width: 49%;
+}
+
+button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 65%;
+    height: 20%;
+    background-color: transparent;
+    margin: 4% auto;
+}
+
+
+
+a.btnprincipal {
+    padding: 10px 35%;
+    border-radius: 15px;
+    margin: 4% auto;
+
+    text-decoration: none;
+
+    color: #fbfbfb;
+
+    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%)
+}
+
+footer {
+    height: 5%;
+
+    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+        color:#fbfbfb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divtres{
+width: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+label{
+  margin-left: 6% ;
+}
+
+#checkbox {
+    margin: 0%;
+}
+
+/*celular médio cadastre-se*/
+@media (max-width: 660px) {
+    #container{
+        width: 90%;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #divum{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #divdois{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    form.check{
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 16px;
+    }
+
+    #checkbox {
+        width: 10%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    nav.large {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 65px;
+
+        text-align: center;
+
+        background-color: #fbfbfb;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+        padding: 24px;
+        border-radius: 16px;
+
+        width: 100%;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.link-h {
+        margin: 0px 0px 8px 0px;
+        width: 150px;
+    }
+
+
+    nav.small {
+        display: flex;
+    }
+
+
+}
+
+
+

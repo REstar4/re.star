@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre.2</title>
+
+    <link rel="stylesheet" href="socorro.css">
+
+    <link rel="stylesheet" href="favicon.ico">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+    </style>
+
+<script src="https://kit.fontawesome.com/da6e63d36c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><span class="gradient">re.star</span></h1>
+        <nav class="large flexjustifyend" id="menu">
+            <a class="link-h" href="#">Quem somos</a>
+            <a class="link-h" href="#">Fale conosco</a>
+            <a class="link-h link-ec radius" href="sucess-e.html">Entre</a>
+        </nav>
+        <nav class="small" onclick="clickMenu()">
+            <i class="fa-solid fa-bars" style="color: #232323;"></i>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container">
+            <div id="titulo">
+                <h1 class="cadastre">Cadastre-se</h1>
+            </div>
+            <form>
+                <div id="divum">
+                    <input type="email" id="e-mail" placeholder="re.star@star.com">
+                    <input type="email" id="e-mail" placeholder="confirme seu email">
+                    <input type="date" id="date" placeholder="data de nascimento">
+                </div>
+                <div id="divdois">
+                    <input type="password" id="pass" placeholder="senha">
+                    <input type="password" id="pass" placeholder="confirme sua senha">
+                    <input type="number" id="number" placeholder="telefone">
+                </div>
+            </form>
+            <form action="" class="check">
+                <div id="divtres">
+                    <input type="checkbox" name="termos" id="checkbox"><label for="termos">Termos de uso</label>
+                </div>
+            </form>
+            <button class="btn"><a href="#" class="btnprincipal">Finalizar</a></button>
+    </main>
+
+    <footer>
+        <h2 class="restar"></h2>re.star-brechó online</h2>
+    </footer>
+
+</body>
+
+<script>
+    function clickMenu() {
+        if (menu.style.display == "flex") {
+            menu.style.display = "none"
+        } else {
+            menu.style.display = "flex"
+            menu.style.animation = "scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+        }
+    }
+</script>
+
+</html>
