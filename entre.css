@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
     align-items:center;
 
-    padding: 1% 6%;
+    padding: 16px 96px;
 
     position: fixed;
     top: 16px;
@@ -17,7 +17,7 @@ header{
     right: 16px;
 
     backdrop-filter: blur(15px);
-    border-radius: 15px;
+    border-radius: 16px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 
     z-index: 1;
@@ -55,11 +55,6 @@ span.gradient {
 
 input{
     padding: 3px;
-}
-
-
-h1.Entre{
-    font-size: 55px;
 }
 
 #titulo{
