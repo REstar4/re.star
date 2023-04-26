@@ -1,7 +1,14 @@
+@import url('base.css');
+
 *{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    border-radius: 8px 0px 0px 8px;
 }
 
 header{
@@ -9,7 +16,7 @@ header{
     justify-content: space-between;
     align-items:center;
 
-    padding: 16px 96px;
+    padding: 13px 96px;
 
     position: fixed;
     top: 16px;
@@ -76,12 +83,6 @@ span.gradient {
     background-clip: text;
 }
 
-body {
-    height: 100vh;
-
-    font-family: 'Poppins', sans-serif;
-}
-
 h1 {
     margin-bottom: 10%; 
 }
@@ -90,13 +91,14 @@ main {
     position: relative;
     top: 30px;
 
-    height: 95%;
+    height: 94.8%;
 
     margin: auto;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #container {
@@ -109,7 +111,7 @@ main {
 
 input{
     border: 2px solid #353535;
-    border-radius: 15px;
+    border-radius: 16px;
     padding: 8px 25px 8px 25px;
     margin-bottom: 16px;
     background-color: #fbfbfb;
@@ -194,17 +196,17 @@ footer {
     justify-content: center;
     align-items: center;
 }
-#divtres{
-width: 250px;
-display: flex;
-justify-content: center;
-align-items: center;
 
+#divtres{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 label{
-  margin-left: 6% ;
+    margin-left: 6% ;
 }
 
 #checkbox {
@@ -213,6 +215,9 @@ label{
 
 /*celular médio cadastre-se*/
 @media (max-width: 660px) {
+    header {
+        padding: 13px 32px;
+    }
     #container{
         width: 90%;
     }
