@@ -65,32 +65,6 @@ p {
     font-size: 16px;
 }
 
-.fullcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flexbetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flexjustifyend {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flexcolumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.radius {
-    border-radius: 16px;
-}
-
 /*animações*/
 
 .fade-in-bottom {

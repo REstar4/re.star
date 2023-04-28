@@ -79,8 +79,6 @@ body {
 
     color: var(--cor0);
     font-family: var(--font);
-
-    overflow-x: hidden;
 }
 
 main {

@@ -11,12 +11,10 @@
     border-radius: 8px 0px 0px 8px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+/*cabeçalho*/
 
-    padding: 13px 96px;
+header {
+    padding: 12.8px 96px;
 
     position: fixed;
     top: 16px;
@@ -25,38 +23,46 @@ header{
 
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border-radius: 16px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 
     z-index: 1;
 }
 
-nav.large{
-    width: 80%;
-    justify-content: flex-end;
-    display: flex;
-}
-
-
-nav.small{
-    display: none;
-}
-
 h1.logo {
     color: #353535;
 
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;
-
 }
 
-a.link-h{
+#logorestar {
+    color: #4C8647;
+    text-decoration: none;
+}
+
+nav.large {
+    width: 80%;
+}
+
+nav.small {
+    display: none;
+}
+
+a.link-h {
     font-size: 16px;
     margin-left: 8%;
+
     color: #353535;
 
     text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+a.link-ec {
+    text-decoration: underline;
 }
 
 a.link-h:hover{
@@ -64,10 +70,6 @@ a.link-h:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
-}
-
-a.link-ec {
-    text-decoration: underline;
 }
 
 body{

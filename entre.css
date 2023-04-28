@@ -11,34 +11,10 @@
     border-radius: 8px 0px 0px 8px;
 }
 
-.fullcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flexbetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flexjustifyend {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flexcolumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.radius {
-    border-radius: 16px;
-}
+/*cabeçalho*/
 
 header {
-    padding: 16px 96px;
+    padding: 12.8px 96px;
 
     position: fixed;
     top: 16px;
@@ -52,14 +28,13 @@ header {
     z-index: 1;
 }
 
-
 h1.logo {
     color: #353535;
 
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;
-
 }
 
 #logorestar {
@@ -67,15 +42,36 @@ h1.logo {
     text-decoration: none;
 }
 
-nav.large{
+nav.large {
     width: 80%;
-    justify-content: flex-end;
-    display: flex;
 }
 
-nav.small{
+nav.small {
     display: none;
 }
+
+a.link-h {
+    font-size: 16px;
+    margin-left: 8%;
+
+    color: #353535;
+
+    text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+a.link-ec {
+    text-decoration: underline;
+}
+
+a.link-h:hover{
+    background: linear-gradient(90deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
 
 h1 {
     margin-bottom: 10%; 
@@ -110,21 +106,6 @@ nav{
     justify-content: flex-end;  
 }
 
-a.link-h{
-    font-size: 16px;
-    margin-left: 8%;
-    color: #353535;
-
-    text-decoration: none;
-}
-
-a.link-h:hover{
-    background: linear-gradient(90deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-clip:text;
-}
-
 button {
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -133,11 +114,6 @@ button {
     height: 20%;
     background-color: transparent;
     margin: 4% auto;
-}
-
-
-a.link-ec {
-    text-decoration: underline;
 }
 
 a.bprincipal {

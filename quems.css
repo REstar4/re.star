@@ -13,22 +13,34 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: 'Poppins', sans-serif;
-}
-
 body {
     background-color: #FBFBFB;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*cabeçalho*/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+div#h {
+    background-color: #fbfbfb;
 
-    padding: 1% 6%;
+    padding: 16px 96px;
+
+    height: 56px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    border-radius: 16px;
+
+    z-index: 3;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    padding: 16px 96px;
 
     position: fixed;
     top: 16px;
@@ -36,10 +48,10 @@ header {
     right: 16px;
 
     backdrop-filter: blur(15px);
-    border-radius: 15px;
+    -webkit-backdrop-filter: blur(15px);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 
-    z-index: 1;
+    z-index: 5;
 }
 
 h1.logo {
@@ -51,21 +63,32 @@ h1.logo {
     margin-bottom: 0px;
 }
 
-nav {
+#logorestar {
+    color: #4C8647;
+    text-decoration: none;
+}
+
+nav.large {
     width: 80%;
-    display: flex;
-    justify-content: flex-end;
+}
+
+nav.small {
+    display: none;
 }
 
 a.link-h {
-    font-size: 16px ;
+    font-size: 16px;
     margin-left: 8%;
 
-    font-family: 'Poppins', sans-serif;
-
-    color: var(--cor0);
+    color: #353535;
 
     text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+a.link-ec {
+    text-decoration: underline;
 }
 
 span.gradient{
@@ -75,19 +98,18 @@ span.gradient{
     background-clip: text;
 }
 
-#logorestar {
-    color: #4C8647;
-    text-decoration: none;
-}
-
 /*principal*/
 
 #qs{
+    position: relative;
+
     background-color: #fbfbfb;
    width: 100%;
    height: 95vh;
    display: flex;
    align-items: center;
+
+   z-index: 4;
 }
 
 .container {
@@ -136,7 +158,9 @@ h1.qms {
 
 /*expliempr*/
 
-.text-p{
+#text-p{
+    position: relative;
+
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
     height: 80vh;
     padding: 10%;
@@ -149,11 +173,15 @@ h1.qms {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    z-index: 2;
 }
 
 /*5res*/
 
 #res{
+    position: relative;
+
     padding: 20px;
     font-size: 20px;
     height: 80vh;
@@ -165,6 +193,8 @@ h1.qms {
     justify-content: space-evenly;
 
     list-style-position: inside;
+
+    z-index: 4;
 }
 
 ul {
@@ -208,6 +238,8 @@ h2.title-02 {
 /*oq-star*/
 
 #oq-star{
+    position: relative;
+
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
     height: 70vh;
     padding: 10%;
@@ -218,6 +250,8 @@ h2.title-02 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    z-index: 2;
 }
 
 #oq-star > h2 {
