@@ -273,3 +273,70 @@ footer {
 #rodapé {
     color: #fff;
 }
+
+@media (max-width: 1180px) {
+
+    #sac {
+        height: 50vh;
+        padding: 0%;
+    }
+    #containersac {
+        width: 50%;
+        height: 35vh;
+        padding: 2vh;
+    }
+
+    span.faleconosco {
+        font-size: 60px;
+    }
+
+    #contatosac {
+        font-size: 25px;
+        padding: 0,0,0,0;
+    }
+
+    #funcionamento {
+        font-size: 20px;
+    }
+
+    #emailrestar {
+        font-size: 25px;
+    }
+
+
+    #azul {
+        height: 50vh;
+    }
+
+    #containera {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #logos {
+        height: 30vh;
+    }
+
+    .mídia {
+        width: 60px;
+        height: 60px;
+    }
+
+    .insta {
+        width: 54px;
+        height: 54px;
+    }
+
+    #nomeslogos {
+        height: 30vh;
+    }
+
+
+    #fc {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
