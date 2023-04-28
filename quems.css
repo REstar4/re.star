@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-::-webkit-scrollbar {
-    width: 0.4vw;
-    background-color: var(--cor6);
-}
-
-::-webkit-scrollbar-track{
-    background-color: var(--cor6);
-}
+@import url('base.css');
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg, #FA4236 45%, #F2901C 95%);
@@ -28,6 +21,7 @@ body {
     background-color: #FBFBFB;
 }
 
+/*cabeçalho*/
 
 header {
     display: flex;
@@ -86,6 +80,8 @@ span.gradient{
     text-decoration: none;
 }
 
+/*principal*/
+
 #qs{
     background-color: #fbfbfb;
    width: 100%;
@@ -138,6 +134,8 @@ h1.qms {
     font-weight: 700;   
 }
 
+/*expliempr*/
+
 .text-p{
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
     height: 80vh;
@@ -152,6 +150,9 @@ h1.qms {
     justify-content: center;
     align-items: center;
 }
+
+/*5res*/
+
 #res{
     padding: 20px;
     font-size: 20px;
@@ -203,6 +204,8 @@ h2.title-02 {
 .sub{
     text-decoration: underline;
 }
+
+/*oq-star*/
 
 #oq-star{
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
@@ -262,6 +265,8 @@ h2{
     border: 5px solid #fa4336d4;
     list-style-position: outside;
 }
+
+/*rodapé*/
 
 #rod{
     background-image: linear-gradient(to right, #FA4236, #F2901C);
