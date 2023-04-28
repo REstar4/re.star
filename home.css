@@ -46,7 +46,7 @@ body {
 }
 
 section {
-    height: 80vh;
+    height: 84vh;
 
     padding: 4% 4%;
 
@@ -150,6 +150,11 @@ h1.logo {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;
+}
+
+#logorestar {
+    color: var(--cor1);
+    text-decoration: none;
 }
 
 nav.large {

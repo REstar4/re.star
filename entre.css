@@ -11,12 +11,34 @@
     border-radius: 8px 0px 0px 8px;
 }
 
-header{
+.fullcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbetween {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+}
 
-    padding: 13px 96px;
+.flexjustifyend {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.radius {
+    border-radius: 16px;
+}
+
+header {
+    padding: 16px 96px;
 
     position: fixed;
     top: 16px;
@@ -25,11 +47,11 @@ header{
 
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border-radius: 16px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 
     z-index: 1;
 }
+
 
 h1.logo {
     color: #353535;
@@ -38,6 +60,11 @@ h1.logo {
     font-weight: 700;
     margin-bottom: 0px;
 
+}
+
+#logorestar {
+    color: #4C8647;
+    text-decoration: none;
 }
 
 nav.large{
