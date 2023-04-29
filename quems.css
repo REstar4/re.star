@@ -14,8 +14,15 @@
 }
 
 body {
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
     font-family: 'Poppins', sans-serif;
+}
+
+h2.title-02 {
+    font-weight: 700;
+    font-size: 40px;
+
+    margin-bottom: 0%;
 }
 
 /*cabeçalho*/
@@ -25,7 +32,7 @@ div#h {
 
     padding: 16px 96px;
 
-    height: 56px;
+    height: 54px;
 
     position: fixed;
     top: 16px;
@@ -35,8 +42,6 @@ div#h {
     border-radius: 16px;
 
     z-index: 3;
-
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 header {
@@ -57,7 +62,6 @@ header {
 h1.logo {
     color: #353535;
 
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -84,7 +88,13 @@ a.link-h {
 
     text-decoration: none;
 
-    font-family: 'Poppins', sans-serif;
+}
+
+.link-h:hover {
+    background: linear-gradient(90deg, #FA4236 45%, #F2901C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 a.link-ec {
@@ -104,17 +114,22 @@ span.gradient{
     position: relative;
 
     background-color: #fbfbfb;
-   width: 100%;
-   height: 95vh;
-   display: flex;
-   align-items: center;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
 
-   z-index: 4;
+    z-index: 4;
 }
 
 .container {
-    width: 60%;
-    height: 35vh;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .esquerda {
@@ -141,12 +156,8 @@ span.gradient{
 .centro {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
-p{
-    margin: 0%;
-}
-
-
 
 h1.qms {
     font-size: 48px;
@@ -160,19 +171,24 @@ h1.qms {
     position: relative;
 
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
-    height: 80vh;
+    height: 50vh;
     padding: 10%;
     font-size: 20px;
     color: white;
     text-align: center;
 
-    font-family: 'Poppins', sans-serif;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     z-index: 2;
+}
+
+.font-text-p {
+    font-size: 28px;
+
+    margin: 0%;
 }
 
 /*5res*/
@@ -184,7 +200,6 @@ h1.qms {
     font-size: 20px;
     height: 80vh;
 
-    font-family: 'Poppins', sans-serif;
     
     display: flex;
     align-items: center;
@@ -197,6 +212,10 @@ h1.qms {
 
 ul {
     text-align: left;
+
+    margin: 0px;
+
+    font-size: 24px;
 }
 
 .title-5res{
@@ -205,24 +224,12 @@ ul {
     justify-content: center;
     width: 40%;
 
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-}
-
-h2.title-02 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
 }
 
 .font-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 0px;
-}
-
-.font-text-p {
-    font-size: 28px;
 }
 
 .h2-orange{
@@ -252,21 +259,11 @@ h2.title-02 {
     z-index: 2;
 }
 
-#oq-star > h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-}
-
-h2{
-    font-size: 50px;
-}
-
 .container1{
+    height: 100%;
     width: 50%;
-    height: 80%;
     text-align: center;
-    padding: 10% 6%;
+    padding: 48px 24px;
     margin: 10px;
     border-radius: 15px;
     border: 5px solid white;
@@ -289,7 +286,7 @@ h2{
 }
 
 .bordag{
-    padding: 5%;
+    padding: 48px;
     border-style: solid;
     text-align: center;
     margin: 10px;
@@ -300,7 +297,7 @@ h2{
 
 /*rodapé*/
 
-#rod{
+footer{
     background-image: linear-gradient(to right, #FA4236, #F2901C);
     width: 100%;
     height: 5vh;
@@ -313,20 +310,12 @@ h2{
 
 .text-rp {
     margin: 0%;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #FBFBFB;
+
+    font-size: 18px;
 }
-nav.large{
-    width: 80%;
-}
-nav.small{
-    display: none;
-}
-a.link-ec{
-    text-decoration: underline;
-    
-}
+
 /*reposividade*/
 
 @media (max-width: 1200px) {
@@ -355,7 +344,6 @@ a.link-ec{
         height: 600px;
     }
     section.text-p{
-        height: 500px;
         padding: 0% 10%;
     }
     section#res{
@@ -367,10 +355,12 @@ a.link-ec{
     section#restar{
         height: 400px;
     }
-
-    section#qs > div.container > h1{
-        font-size: 32px;
+    h1.qms{
+        font-size: 36px;
     }  
+    h2.title-02 {
+        font-size: 28px;
+    }
     nav.large {
         display: none;
         position: absolute;
@@ -395,30 +385,27 @@ a.link-ec{
         margin: 0px 0px 8px 0px;
         width: 150px;
     }
-
     a.link-h:nth-child(4) {
         margin: 0px;
     }
-
     nav.small {
         display: flex;
     }
     img#star2{
-        width: auto;
         margin-right: 10%;
     }
     img#star1 {
-        width: auto;
         margin-left: 10%;
     }
-    
-}
-
-.link-h:hover {
-    background: linear-gradient(90deg, #FA4236 45%, #F2901C);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    .font-text, ul {
+        font-size: 20px;
+    }
+    .bordag {
+        height: auto;
+    }
+    .container1{
+        height: auto;
+    }
 }
 
 @media (max-width: 795px) {
@@ -427,9 +414,8 @@ a.link-ec{
     }
     section#qs{
         height: 500px;
-
     }
-    section#qs  > div.container > h1 {
+    h1.qms {
         font-size: 36px;
     }
     h2.title-02{
@@ -438,7 +424,9 @@ a.link-ec{
     h3 {
         font-size: 20px;
     }
-
+    .bordag {
+        padding: 24px;
+    }
 }
 
 @media (max-width: 530px){
@@ -446,11 +434,9 @@ a.link-ec{
         display: flex;
         flex-direction: column-reverse;
     }
-
     p.font-text-p{
         font-size: 20px;
     }
-
     section.text-p{
         height: 400px;
     }
@@ -464,7 +450,6 @@ a.link-ec{
     }
     section#res{
         height: 600px;
-
     }
     section#restar{
         height: 350px;
@@ -490,6 +475,7 @@ a.link-ec{
         justify-content: center;
         height: 75vh;
     }
+    .font-text, ul {
+        font-size: 16px;
+    }
 }
-
-

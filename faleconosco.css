@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('base.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*cabeçalho*/
+    
+div#h {
+    background-color: #fbfbfb;
+
+    padding: 16px 96px;
+
+    height: 54px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    border-radius: 16px;
+
+    z-index: 3;
+}
+
+header {
+    padding: 16px 96px;
+
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    z-index: 5;
+}
+
+h1.logo {
+    color: #353535;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+#logorestar {
+    color: #4C8647;
+    text-decoration: none;
+}
+
+nav.large {
+    width: 80%;
+}
+
+nav.small {
+    display: none;
+}
+
+a.link-h {
+    font-size: 16px;
+    margin-left: 8%;
+    line-height: 24px;
+
+    color: #353535;
+
+    text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+a.link-ec {
+    text-decoration: underline;
+}
+
+.link-h:hover {
+    background: linear-gradient(90deg, #8A78E0 45%, #2B7FFF 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/**/
+
+span.gradient1 {
+    background: linear-gradient(90deg,#8A78E0 40%, #2B7FFF 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+    
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #8A78E0 45%, #2B7FFF 95%);
+    border-radius: 8px 0px 0px 8px;
+}
+
+#fc {
+    background-color: #f2eeeb;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    z-index: 4;
+}
+
+h1.fc {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+span.faleconosco {
+    background: linear-gradient(90deg, #8A78E0, #2B7FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.esquerda {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#star1 {
+    height: 10vh;
+    margin-left: 25%;
+}
+
+#star2 {
+    height: 10vh;
+    margin-right: 25%;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#azul {
+    background:linear-gradient(90deg, #8A78E0 45%, #2B7FFF);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    z-index: 2;
+}
+
+#containera {
+    border: 5px solid #fbfbfb;
+    border-radius: 15px;
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#logos {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.mídia {
+    width: 41px;
+    height: 41px;
+}
+
+.insta {
+    width: 35px;
+    height: 35px;
+    margin-left:3%;
+}
+
+#nomeslogos {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    }
+
+.userrs {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#redessociais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#rstítulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #fbfbfb;
+}
+
+#sacgradient {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h6 {
+    color: #FFF;
+}
+
+h4 {
+    color: #FFF;
+}
+
+
+
+#sac {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#containersac {
+    border: 5px solid #2B7FFF;
+    border-radius: 15px;
+    width: 30%;
+    height: 50vh;
+    padding: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#número {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#contatosac {
+    margin-left: 10%;
+    font-size: 16px;
+}
+
+#funcionamento {
+    font-size: 12px;
+}
+
+.horário {
+    color: #2B7FFF;
+}
+
+#tel {
+    width: 20%;
+    height:7vh;
+}
+
+#linha {
+    width: 100%;
+    border: 0.3px solid black;
+}
+
+#envelope {
+    width: 20%;
+    height: 7vh;
+}
+#email {
+    display: flex;
+    align-items: center;
+}
+
+#emailrestar {
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+footer {
+    background:linear-gradient(to right, #8A78E0, #8A78E0, #2B7FFF, #2B7FFF);
+    width: 100%;
+    height: 5vh;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rodapé {
+    color: #fff;
+}
+
+@media (max-width: 1180px) {
+
+    #sac {
+        height: 50vh;
+        padding: 0%;
+    }
+    #containersac {
+        width: 50%;
+        height: 35vh;
+        padding: 2vh;
+    }
+
+    span.faleconosco {
+        font-size: 60px;
+    }
+
+    #contatosac {
+        font-size: 25px;
+        padding: 0,0,0,0;
+    }
+
+    #funcionamento {
+        font-size: 20px;
+    }
+
+    #emailrestar {
+        font-size: 25px;
+    }
+
+
+    #azul {
+        height: 50vh;
+    }
+
+    #containera {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #logos {
+        height: 30vh;
+    }
+
+    .mídia {
+        width: 60px;
+        height: 60px;
+    }
+
+    .insta {
+        width: 54px;
+        height: 54px;
+    }
+
+    #nomeslogos {
+        height: 30vh;
+    }
+
+
+    #fc {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
