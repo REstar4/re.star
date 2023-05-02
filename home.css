@@ -165,6 +165,8 @@ section#principal {
     position: relative;
     height: 95vh;
     top: 40px;
+
+    padding: 0px 4%;
 }
 
 h1.title-p {
