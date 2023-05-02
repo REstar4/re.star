@@ -239,7 +239,7 @@ label{
 
 /*responsividade*/
 
-@media (max-width: 912px) {
+@media (max-width: 1000px) {
     nav.large {
         display: none;
         position: absolute;
@@ -275,6 +275,45 @@ label{
         height: 100%;
         width: 20%;
         justify-content: flex-end;
+    }
+
+    #container{
+        width: 80%;
+    }
+
+    form{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+
+    #divum{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #divdois{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    form.check{
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 16px;
+    }
+
+    input#checkbox {
+        width: 10%;
+    }
+
+
+    input {
+        width: 100%;
+        margin-top: 16px;
     }
 }
 
@@ -321,13 +360,6 @@ label{
         width: 100%;
         display: flex;
         align-items: center;
-    }
-
-    form.check{
-        display: flex;
-        align-items: center;
-
-        margin-bottom: 16px;
     }
 
     #checkbox {
