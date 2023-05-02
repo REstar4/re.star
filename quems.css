@@ -67,7 +67,7 @@ div#h {
 
     padding: 16px 96px;
 
-    height: 54px;
+    height: 56px;
 
     position: fixed;
     top: 16px;
@@ -360,7 +360,7 @@ footer{
     section#qs{
         height: 540px;
     }
-    section#qs  > div.container > h1 {
+    h1.qms {
         font-size: 32px;
     }
 
@@ -373,7 +373,10 @@ footer{
     nav.small{
         display: flex;
     }
-    section{
+    section#res {
+        height: 500px;
+    }
+    section#oq-star {
         height: 500px;
     }
     section#qs{
@@ -439,6 +442,9 @@ footer{
 }
 
 @media (max-width: 795px) {
+    div#h {
+        height: 54px;
+    }
     section {
         height: 450px;
     }
@@ -482,10 +488,10 @@ footer{
         height: 600px;
     }
     section#res{
-        height: 600px;
+        height: 450px;
     }
     img#star2, img#star1 {
-        margin-left: 0%;
+        margin: 0%;
     }
     section#restar{
         height: 350px;

@@ -413,13 +413,13 @@ span.division {
     div.app-rp {
         flex-direction: column;
 
-        padding: 14% 14%;
+        padding: 8% 8%;
 
         text-align: center;
     }
 
     img.app-img-rp {
-        width: 95%;
+        width: 85%;
         margin: auto;
     }
 
@@ -557,7 +557,7 @@ span.division {
     }
 
     img.app-img-rp {
-        width: 70%;
+        width: 100%;
     }
 
     div.app-rp {

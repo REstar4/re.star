@@ -371,5 +371,18 @@ label{
     }
 }
 
+@media (max-width: 450px) {
+    main {
+        height: 760px;
 
+        padding: 6% 4%;
+    }
 
+    input {
+        margin-top: 0px;
+    }
+
+    footer {
+        height: 32px;
+    }
+}
