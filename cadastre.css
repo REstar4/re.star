@@ -7,14 +7,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    background: linear-gradient(180deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
     border-radius: 8px 0px 0px 8px;
 }
 
 /*cabeçalho*/
 
 header {
-    padding: 13px 96px;
+    padding: 16px 96px;
 
     position: fixed;
     top: 16px;
@@ -95,6 +95,10 @@ span.gradient {
     height: 64px;
 }
 
+h1.cadastre {
+    font-weight: 700;
+}
+
 .flexstart {
     display: flex;
     align-items: flex-start;
@@ -107,7 +111,7 @@ main {
     position: relative;
     top: 30px;
 
-    height: 95vh;
+    height: 96vh;
 
     margin: auto;
 
@@ -197,13 +201,13 @@ a.btnprincipal {
 
     color: #fbfbfb;
 
-    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%)
+    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 55%, #FA4236 75%, #F2901C 95%)
 }
 
 footer {
-    height: 5vh;
+    height: 4vh;
 
-    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
+    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 55%, #FA4236 75%, #F2901C 95%);
     color:#fbfbfb;
 
     display: flex;
@@ -213,8 +217,8 @@ footer {
 
 h2.restar{
     margin: 0%;
-    font-weight: 500;
-    color: #FBFBFB;
+    font-weight: 400;
+    color: #fbfbfb;
     font-size: 18px;
 }
 
