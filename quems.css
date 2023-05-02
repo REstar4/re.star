@@ -147,6 +147,7 @@ span.gradient{
 
 #qs{
     position: relative;
+    top: 40px;
 
     width: 100%;
     height: 95vh;

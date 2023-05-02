@@ -162,7 +162,9 @@ a.link-h:hover {
 /*principal*/
 
 section#principal {
+    position: relative;
     height: 95vh;
+    top: 40px;
 }
 
 h1.title-p {
