@@ -141,10 +141,12 @@ a.bprincipal {
 }
 
 main{
+    position: relative;
+    top: 15px;
+
     height: 96vh;
 
     margin: auto;
-    padding-top: 40px;
 
     display: flex;
     justify-content: center;
@@ -324,7 +326,7 @@ h2.restar{
     }
 
     main {
-        padding-top: 0px;
+        top: 0px;
     }
 
     form{
