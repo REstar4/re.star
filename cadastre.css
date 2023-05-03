@@ -106,10 +106,12 @@ h1.cadastre {
 }
 
 main {
+    position: relative;
+    top: 15px;
+
     height: 96vh;
 
     margin: auto;
-    padding-top: 40px;
 
     display: flex;
     justify-content: center;
@@ -347,7 +349,7 @@ h2.restar{
     }
 
     main {
-        padding-top: 0px;
+        top: 0px;
     }
 
     form{
@@ -379,7 +381,7 @@ h2.restar{
 
 @media (max-width: 450px) {
     main {
-        height: 860px;
+        height: 800px;
 
         padding: 6% 4%;
     }
@@ -390,9 +392,5 @@ h2.restar{
 
     footer {
         height: 32px;
-    }
-
-    a.btnprincipal {
-        padding: 10px 25%;
     }
 }
