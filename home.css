@@ -46,7 +46,7 @@ body {
 }
 
 section {
-    height: 80vh;
+    height: 82vh;
 
     padding: 4% 4%;
 
@@ -458,6 +458,9 @@ span.division {
 @media (max-width: 660px) {
     section {
         width: 90%;
+        height: 640px;
+
+        padding: 6% 4%;
     }
 
     p {
@@ -498,10 +501,8 @@ span.division {
         margin-top: 4%;
     }
 
-    section {
-        height: 640px;
-
-        padding: 6% 4%;
+    section#venda {
+        height: 700px;
     }
 
     div.img-text {
