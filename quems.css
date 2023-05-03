@@ -296,7 +296,6 @@ ul {
 }
 
 .container1{
-    height: 100%;
     width: 50%;
     text-align: center;
     padding: 48px 24px;
@@ -308,7 +307,6 @@ ul {
     align-items: center;
     justify-content: center;
 }
-
 
 #restar{
     height: 70vh;
