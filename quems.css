@@ -157,16 +157,6 @@ span.gradient{
     z-index: 4;
 }
 
-.container {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .esquerda {
     width: 100%;
     display: flex;
@@ -206,7 +196,7 @@ h1.qms {
     position: relative;
 
     background: linear-gradient(90deg, #FA4236 25%, #F2901C 75%);
-    height: 50vh;
+    height: 80vh;
     padding: 10%;
     font-size: 20px;
     color: white;
