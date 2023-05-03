@@ -70,13 +70,7 @@ a.link-h:hover{
     background-clip:text;
 }
 
-/**/
-
-body{
-    height: 100vh;
-    background-color:  #fbfbfb;
-    font-family: 'Poppins', sans-serif;
-}
+/*formulários*/
 
 span.gradient {
     background: linear-gradient(90deg, #4C8647 25%, #8A78E0 40%, #2B7FFF 60%, #FA4236 80%, #F2901C 95%);
@@ -85,16 +79,22 @@ span.gradient {
     background-clip: text;
 }
 
+body{
+    height: 100vh;
+    background-color:  #fbfbfb;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.cadastre {
+    font-weight: 700;
+}
+
 #titulo{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 2%;
     height: 64px;
-}
-
-h1.cadastre {
-    font-weight: 700;
 }
 
 .flexstart {
@@ -202,6 +202,23 @@ a.btnprincipal {
     background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 55%, #FA4236 75%, #F2901C 95%)
 }
 
+#divtres{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-left: 6% ;
+}
+
+#checkbox {
+    margin: 0%;;
+}
+
+/*rodapé*/
+
 footer {
     height: 4vh;
 
@@ -218,21 +235,6 @@ h2.restar{
     font-weight: 400;
     color: #fbfbfb;
     font-size: 18px;
-}
-
-#divtres{
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-label{
-    margin-left: 6% ;
-}
-
-#checkbox {
-    margin: 0%;;
 }
 
 /*responsividade*/

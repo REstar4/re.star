@@ -70,7 +70,7 @@ a.link-h:hover{
     background-clip:text;
 }
 
-/**/
+/*formularios*/
 
 body{
     height: 100vh;
@@ -153,33 +153,6 @@ main{
     align-items: center;
 }
 
-footer {
-    height: 4vh;
-
-    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 55%, #FA4236 75%, #F2901C 95%);
-    color:#fbfbfb;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h2.restar{
-    margin: 0%;
-    font-weight: 400;
-    color: #fbfbfb;
-
-    font-size: 18px;
-}
-
-#label{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    width: 49%;
-}
-
 #label input {
     width: 100%;
 }
@@ -235,6 +208,35 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 49%;
+}
+
+/*rodape*/
+
+footer {
+    height: 4vh;
+
+    background: linear-gradient(90deg, #4C8647 10%, #8A78E0 40%, #2B7FFF 55%, #FA4236 75%, #F2901C 95%);
+    color:#fbfbfb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.restar{
+    margin: 0%;
+    font-weight: 400;
+    color: #fbfbfb;
+
+    font-size: 18px;
 }
 
 /*responsividade*/
