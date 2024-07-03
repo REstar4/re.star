@@ -429,18 +429,23 @@ footer {
     }
     
     @media (max-width: 915px) {
+        
         nav.large {
             display: none;
         }
+        
         nav.small{
             display: flex;
         }
+       
         section#fc{
             height: 600px;
         }
+    
         h1.fc{
-            font-size: 43px;
+            font-size: 44px;
         }  
+    
         nav.large {
             display: none;
             position: absolute;
@@ -477,10 +482,16 @@ footer {
         img#star1 {
             margin-left: 10%;
         }
-
-        #nomeslogos{
-            padding-left: 16px;
+        .font-text, ul {
+            font-size: 20px;
         }
+        .bordag {
+            height: auto;
+        }
+        .container1{
+            height: auto;
+        }
+    
     }
     
     @media (max-width: 795px) {
