@@ -367,91 +367,123 @@ footer {
     }
 }
 
-    @media (max-width: 820px) {
-        header {
-            height: 7vh;
+
+    /* Responsividade */
+
+    @media (max-width: 1200px) {
+        section {
+            height: 450px;
         }
-        
-        #fc {
-            height: 50vh;
+        section#fc{
+            height: 540px;
         }
-        #menu {
-        width: 100%;
-        }
-        
-        #star1 {
-            width: 10%;
-            height: 7vh;
-            margin: 0%;
+        h1.fc {
+            font-size: 32px;
         }
     
-        #star2 {
-            width: 10%;
-            height: 7vh;
-            margin: 0%;
-        }
+    }
     
-        .container {
-            width: 60%;
-            height: 22vh;
+    @media (max-width: 912px) {
+        nav.large {
+            display: none;
         }
-    
-        #azul {
-            height: 50vh;
-        }
-    
-        #containera {
-            height: 35vh;
+        nav.small{
             display: flex;
+        }
+        section#fc{
+            height: 600px;
+        }
+        h1.fc{
+            font-size: 44px;
+        }  
+        nav.large {
+            display: none;
+            position: absolute;
+            right: 0px;
+            top: 65px;
+    
+            text-align: center;
+    
+            background-color: #fff;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    
+            padding: 24px;
+            border-radius: 16px;
+    
+            width: 100%;
+    
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
         }
-    
-        #logos {
-            height: 30vh;
-            padding-top: 20px;
+        a.link-h {
+            margin: 0px 0px 8px 0px;
+            width: 150px;
         }
-    
-        .mídia {
-            width: 60px;
-            height: 60px;
+        a.link-h:nth-child(4) {
+            margin: 0px;
         }
+        nav.small {
+            display: flex;
+        }
+        img#star2{
+            margin-right: 10%;
+        }
+        img#star1 {
+            margin-left: 10%;
+        }
+    }
     
-        .insta {
-            width: 54px;
+    @media (max-width: 795px) {
+        div#h {
             height: 54px;
         }
-    
-        #nomeslogos {
-            height: 30vh;
-            padding-right: 100px;
-            padding-top:20px;
+        section {
+            height: 450px;
         }
-    
-        #sac {
-            height: 50vh;
-            padding: 0%;
+        section#fc{
+            height: 500px;
         }
-        #containersac {
-            width: 50%;
-            height: 35vh;
-            padding: 2vh;
+        h1.fc {
+            font-size: 36px;
         }
-    
-        span.faleconosco {
-            font-size: 60px;
+        img#star2, img#star1{
+            height: 10vh;
         }
+    }
     
-        #contatosac {
-            font-size: 25px;
-            padding: 0,0,0,0;
+    @media (max-width: 530px){
+        section {
+            display: flex;
+            flex-direction: column-reverse;
         }
-    
-        #funcionamento {
-            font-size: 20px;
+        div.none{
+            display: none;
         }
-    
-        #emailrestar {
-            font-size: 25px;
+        img#star2, img#star1 {
+            margin: 0%;
         }
+        section#restar{
+            height: 350px;
+        }
+        header{
+            padding: 16px 32px;
+        }
+        h1.logo{
+            font-size: 18px;
+        }
+        section#fc{
+            text-align: center;
+            justify-content: center;
+            height: 75vh;
+        }
+    }
     
+    @media (max-width: 1080px) and (orientation: landscape) {
+        img#star1, img#star2 {
+            height: 20vh;
+        }
+        footer {
+            height: 32px;
+        }
     }
