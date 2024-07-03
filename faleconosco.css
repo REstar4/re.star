@@ -371,19 +371,64 @@ footer {
     /* Responsividade */
 
     @media (max-width: 1200px) {
+        
         section {
             height: 450px;
         }
+        
         section#fc{
             height: 540px;
         }
+       
         h1.fc {
             font-size: 32px;
         }
+       
+        #azul {
+            flex-direction: column-reverse;
+        }
+       
+        #containera{
+            width: 80%;
+            padding-top: 50px;
+        }
+
+        .mídia{
+            width: 80px;
+            height: 80px;
+        }
+
+        .insta{
+            width: 72px;
+            height: 72px;
+        }
+
+        #nomeslogos {
+            padding-left: 70px;
+            
+
+        }
+
+        #sac {
+            flex-direction: column;
+        }
+
+        #containersac {
+            width: 80%;
+        }
+
+        #funcionamento {
+            font-size: 24px;
+        }
+
+        strong {
+            font-size: 32px;
+        }
+
     
     }
     
-    @media (max-width: 912px) {
+    @media (max-width: 915px) {
         nav.large {
             display: none;
         }
@@ -431,6 +476,10 @@ footer {
         }
         img#star1 {
             margin-left: 10%;
+        }
+
+        #nomeslogos{
+            padding-left: 16px;
         }
     }
     
